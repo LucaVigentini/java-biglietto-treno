@@ -23,18 +23,21 @@ public class CalcolaBiglietto {
 		
 	
 		double ticketPrice = kmPercorsi * ticketKm;
+		double prezzo;
 		
 		
 		
-		System.out.print("Il prezzo del biglietto è ");
+		
 		
 		if (age < 18) {	
-			System.out.println(ticketPrice * 80 / 100);
+			prezzo = (ticketPrice * 80 / 100);
 		} else if (age > 65) {
-			System.out.println(ticketPrice * 60 / 100);	
+			prezzo = (ticketPrice * 60 / 100);	
 		} else {
-			System.out.println(ticketPrice);
+			prezzo = (ticketPrice);
 		}
+		
+		System.out.print("Il prezzo del biglietto è " + prezzo);
 		
 			
 		
