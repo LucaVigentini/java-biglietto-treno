@@ -37,7 +37,7 @@ public class CalcolaBiglietto {
 			prezzo = (ticketPrice);
 		}
 		
-		System.out.print("Il prezzo del biglietto è " + prezzo);
+		System.out.println("Il prezzo del biglietto è " + prezzo);
 		
 			
 		
